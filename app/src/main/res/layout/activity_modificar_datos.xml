@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModificarDatos">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/substitution" />
+
+    <TextView
+        android:id="@+id/txtAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:text="Modificar Datos"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtModNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="50dp"
+        android:text="Modificar Nombre"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAyuda" />
+
+    <EditText
+        android:id="@+id/edtNomAnt"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="122dp"
+        android:hint="Nombre Anterior:"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAyuda" />
+
+    <EditText
+        android:id="@+id/edtNomNew"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:hint="Nombre Nuevo:"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAyuda" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="@drawable/mybutton"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomAnt" />
+
+    <TextView
+        android:id="@+id/txtModNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="456dp"
+        android:text="Modificar Nota"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNom"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:hint="Nombre:"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModNota" />
+
+    <EditText
+        android:id="@+id/edtEval"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Eval:"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/edtNom"
+        app:layout_constraintTop_toBottomOf="@+id/txtModNota" />
+
+    <EditText
+        android:id="@+id/edtNota"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:hint="Nota:"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtEval"
+        app:layout_constraintTop_toBottomOf="@+id/txtModNota" />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="@drawable/mybutton"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtEval" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

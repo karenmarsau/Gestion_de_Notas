@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnadirAlumno">
+
+    <TextView
+        android:id="@+id/txtAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:text="Añadir"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNombreAlumno"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:ems="10"
+        android:hint="Nombre:"
+        android:inputType="textPersonName"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAyuda" />
+
+    <EditText
+        android:id="@+id/edtNota1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:ems="10"
+        android:hint="Nota1:"
+        android:inputType="number"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNombreAlumno" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/mybutton"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:fontFamily="@font/nunito"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNota2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:ems="10"
+        android:hint="Nota2:"
+        android:inputType="number"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNota1" />
+
+    <EditText
+        android:id="@+id/edtNota3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:ems="10"
+        android:hint="Nota3:"
+        android:inputType="number"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNota2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/file" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

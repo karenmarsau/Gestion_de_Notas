@@ -1,0 +1,6 @@
+
+Fsquid:S1125X"(Remove the literal "true" boolean value.(Ϊ¨±Έ8Υζµ—‰.
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¨ώÿÿÿÿ8έ’ύ–‰.
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(‡³Κά
+]squid:UselessImportCheck
+"4Remove this unused import 'android.widget.TextView'.(„Λ‚ÿÿÿÿÿ
