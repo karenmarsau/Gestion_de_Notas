@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -54,6 +55,24 @@ public class MainActivity extends AppCompatActivity {
         imageButtonAyuda.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 goToAyuda();
+            }
+        });
+
+        final ImageButton btnVaciar = findViewById(R.id.imageButtonVaciar);
+        btnVaciar.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                for(int i=0; i<contador; i++){
+                    nombresArray[i]="";
+                    nota1Array[i]=0;
+                    nota2Array[i]=0;
+                    nota3Array[i]=0;
+                }
+                contador=0;
+
+                Toast toast = Toast.makeText(getApplicationContext(), "Vaciado con Exito", Toast.LENGTH_SHORT);
+                toast.setMargin(1000, 500);
+                toast.show();
             }
         });
     }

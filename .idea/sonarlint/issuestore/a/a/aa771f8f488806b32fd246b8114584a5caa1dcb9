@@ -1,11 +1,11 @@
 
-esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±Ž
-gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ÇåÖ•ùÿÿÿÿ
-gsquid:S1192D"KDefine a constant instead of duplicating this literal "nota2Array" 4 times.(˜Œ¡ùÿÿÿÿ
-gsquid:S1192C"KDefine a constant instead of duplicating this literal "nota1Array" 4 times.(–Ñ‘žýÿÿÿÿ
-isquid:S1192A"MDefine a constant instead of duplicating this literal "nombresArray" 4 times.(ïÌêÿüÿÿÿÿ
 [squid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òžýÿÿÿÿ
-^squid:S2259h"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖýÿÿÿÿ
-Ksquid:S1066g"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ
-esquid:S1192B"IDefine a constant instead of duplicating this literal "contador" 4 times.(Ú˜¢ªþÿÿÿÿ
-gsquid:S1192E"KDefine a constant instead of duplicating this literal "nota3Array" 4 times.(¡©ƒüÿÿÿÿÿ
+nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(òÛœøÿÿÿÿ8Ä¥ò½‰.
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±Ž
+^squid:S2259w"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖýÿÿÿÿ
+Ksquid:S1066v"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ
+gsquid:S1192D"KDefine a constant instead of duplicating this literal "nota2Array" 5 times.(˜Œ¡ùÿÿÿÿ
+isquid:S1192A"MDefine a constant instead of duplicating this literal "nombresArray" 5 times.(ïÌêÿüÿÿÿÿ
+gsquid:S1192C"KDefine a constant instead of duplicating this literal "nota1Array" 5 times.(–Ñ‘žýÿÿÿÿ
+gsquid:S1192E"KDefine a constant instead of duplicating this literal "nota3Array" 5 times.(¡©ƒüÿÿÿÿÿ
+esquid:S1192B"IDefine a constant instead of duplicating this literal "contador" 5 times.(Ú˜¢ªþÿÿÿÿ
