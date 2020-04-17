@@ -10,15 +10,18 @@
         android:id="@+id/imageView3"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="178dp"
-        android:layout_marginLeft="178dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/help" />
 
     <TextView
-        android:id="@+id/txtAyuda"
+        android:id="@+id/txtNotasFinales"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
@@ -35,86 +38,55 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtVaciar"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="30dp"
-        android:text="Vaciar Listas"
-        android:textColor="#000000"
-        android:textSize="20sp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="80dp"
+        android:text="IES Joan d'Austria"
+        android:textSize="18sp"
         app:fontFamily="@font/nunito"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtAyuda" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
     <TextView
-        android:id="@+id/txtBuscarNom"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="50dp"
-        android:text="Buscar por nombre"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:fontFamily="@font/nunito"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
-
-    <EditText
-        android:id="@+id/edtNomAnt"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
-        android:hint="Nombre:"
-        android:inputType="textPersonName"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtBuscarNom" />
-
-    <Button
-        android:id="@+id/btnSave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:background="@drawable/mybutton"
-        android:text="Guardar"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:text="DAM 2019-2020"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtVaciar" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
-        android:id="@+id/btnSave2"
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:background="@drawable/mybutton"
-        android:text="Buscar"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:text="Desarrollo de Interfaces"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtNomAnt" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Hecho por Karen Gómez"
+        android:textSize="18sp"
+        app:fontFamily="@font/nunito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

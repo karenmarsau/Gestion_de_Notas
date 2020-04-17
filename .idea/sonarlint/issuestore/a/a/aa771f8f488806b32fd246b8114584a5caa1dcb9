@@ -1,11 +1,11 @@
 
-[squid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ
-nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(òÛœøÿÿÿÿ8Ä¥ò½‰.
-esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±
-^squid:S2259w"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖıÿÿÿÿ
-Ksquid:S1066v"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ
-gsquid:S1192D"KDefine a constant instead of duplicating this literal "nota2Array" 5 times.(˜Œ¡ùÿÿÿÿ
-isquid:S1192A"MDefine a constant instead of duplicating this literal "nombresArray" 5 times.(ïÌêÿüÿÿÿÿ
-gsquid:S1192C"KDefine a constant instead of duplicating this literal "nota1Array" 5 times.(–Ñ‘ıÿÿÿÿ
-gsquid:S1192E"KDefine a constant instead of duplicating this literal "nota3Array" 5 times.(¡©ƒüÿÿÿÿÿ
-esquid:S1192B"IDefine a constant instead of duplicating this literal "contador" 5 times.(Ú˜¢ªşÿÿÿÿ
+Lsquid:S1066‰"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ
+isquid:S1192T"MDefine a constant instead of duplicating this literal "nombresArray" 5 times.(ïÌêÿüÿÿÿÿ
+esquid:S1192U"IDefine a constant instead of duplicating this literal "contador" 5 times.(Ú˜¢ªşÿÿÿÿ
+bsquid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ8úö‚“.
+gsquid:S1192W"KDefine a constant instead of duplicating this literal "nota2Array" 5 times.(˜Œ¡ùÿÿÿÿ
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±
+gsquid:S1192V"KDefine a constant instead of duplicating this literal "nota1Array" 5 times.(–Ñ‘ıÿÿÿÿ
+gsquid:S1192X"KDefine a constant instead of duplicating this literal "nota3Array" 5 times.(¡©ƒüÿÿÿÿÿ
+_squid:S2259Š"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖıÿÿÿÿ
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òÛœøÿÿÿÿ8Ä¥ò½‰.

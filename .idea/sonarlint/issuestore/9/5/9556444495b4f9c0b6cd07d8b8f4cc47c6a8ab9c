@@ -1,10 +1,10 @@
 
+Rsquid:S1066H"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ8óäø­‰.
+isquid:S1192!"KDefine a constant instead of duplicating this literal "nota3Array" 4 times.(¹Ñ¬Ý8¢¸­Ï“.
+gsquid:S1192""IDefine a constant instead of duplicating this literal "contador" 4 times.(ŸŸù”8¢¸­Ï“.
+esquid:S2259I"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖýÿÿÿÿ8› û­‰.
 dsquid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8ÓÖÈ­‰.
-isquid:S1192("KDefine a constant instead of duplicating this literal "nota3Array" 4 times.(¹Ñ¬Ý8› û­‰.
-Rsquid:S1066A"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ8óäø­‰.
-gsquid:S1192)"IDefine a constant instead of duplicating this literal "contador" 4 times.(ŸŸù”8› û­‰.
-isquid:S1192&"KDefine a constant instead of duplicating this literal "nota1Array" 4 times.(Þ¡êç8› û­‰.
-hsquid:S1192'"KDefine a constant instead of duplicating this literal "nota2Array" 4 times.(’¾¿8› û­‰.
-ksquid:S1192%"MDefine a constant instead of duplicating this literal "nombresArray" 4 times.(ˆÁÑè8› û­‰.
-dsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(úáé.
-esquid:S2259B"BA "NullPointerException" could be thrown; "data" is nullable here.(Å’ºÖýÿÿÿÿ8› û­‰.
+dsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(úáé.
+hsquid:S1192 "KDefine a constant instead of duplicating this literal "nota2Array" 4 times.(’¾¿8¢¸­Ï“.
+isquid:S1192"KDefine a constant instead of duplicating this literal "nota1Array" 4 times.(Þ¡êç8¢¸­Ï“.
+ksquid:S1192"MDefine a constant instead of duplicating this literal "nombresArray" 4 times.(ˆÁÑè8¢¸­Ï“.

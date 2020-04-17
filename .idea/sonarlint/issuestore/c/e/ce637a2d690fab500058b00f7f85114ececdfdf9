@@ -1,10 +1,10 @@
 
 bsquid:S2583>"DChange this condition so that it does not always evaluate to "false"(Ú¨±¸8Ìö°‰.
-†squid:S41658"hRemove this useless assignment; "validacion" already holds the assigned value along all execution paths.(¨­Ã8Ìö°‰.
-usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(¨Œşÿÿÿÿ8Ìö°‰.
 €squid:S1192/"]Define a constant instead of duplicating this literal "ERROR, el nombre esta vacio." 3 times.(æ‰§Êøÿÿÿÿ8„ú°‰.
-†squid:S4165."hRemove this useless assignment; "validacion" already holds the assigned value along all execution paths.(¨­Ã8Ìö°‰.
 Fsquid:S1125z"(Remove the literal "true" boolean value.(Ú¨±¸8Ôì±‰.
-psquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷²ş8–æ¦ª‰.
-Fsquid:S1125>"(Remove the literal "true" boolean value.(Ú¨±¸8Ìö°‰.
+†squid:S4165."hRemove this useless assignment; "validacion" already holds the assigned value along all execution paths.(¨­Ã8Ìö°‰.
+†squid:S41658"hRemove this useless assignment; "validacion" already holds the assigned value along all execution paths.(¨­Ã8Ìö°‰.
 esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¨§ÍÒ
+psquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷²ş8–æ¦ª‰.
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(¨Œşÿÿÿÿ8Ìö°‰.
+Fsquid:S1125>"(Remove the literal "true" boolean value.(Ú¨±¸8Ìö°‰.

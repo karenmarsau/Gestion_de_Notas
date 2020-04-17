@@ -1,7 +1,8 @@
 package com.example.gestiondenotas;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Ayuda extends AppCompatActivity {
     @Override

@@ -13,3 +13,9 @@ g
 7app/src/main/java/com/example/gestiondenotas/Ayuda.java,c\f\cf016d33c927916e7d3cb2348abb35386d0db43f
 u
 Eapp/src/main/java/com/example/gestiondenotas/RecyclerViewAdapter.java,3\5\356b7c81ad8f5bb6f69dfb1932a27475986aefc3
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164

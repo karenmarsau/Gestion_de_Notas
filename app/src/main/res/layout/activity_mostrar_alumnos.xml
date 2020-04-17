@@ -10,15 +10,18 @@
         android:id="@+id/imageView3"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="178dp"
-        android:layout_marginLeft="178dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/paper" />
 
     <TextView
-        android:id="@+id/txtAyuda"
+        android:id="@+id/txtNotasFinales"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
@@ -34,83 +37,97 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txtAlumnos"
+    <Button
+        android:id="@+id/btnAlumnos"
         android:layout_width="60dp"
         android:layout_height="25dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
         android:text="Alumno"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:fontFamily="@font/nunito"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
-    <TextView
-        android:id="@+id/txtnota1"
+    <Button
+        android:id="@+id/btnNota1"
         android:layout_width="50dp"
         android:layout_height="25dp"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="23dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
         android:text="Nota 1"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintStart_toEndOf="@+id/txtAlumnos"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btnAlumnos"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
-    <TextView
-        android:id="@+id/txtnota2"
+    <Button
+        android:id="@+id/btnNota2"
         android:layout_width="50dp"
         android:layout_height="25dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
         android:text="Nota 2"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintStart_toEndOf="@+id/txtnota1"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btnNota1"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
-    <TextView
-        android:id="@+id/txtnota3"
+    <Button
+        android:id="@+id/btnNota3"
         android:layout_width="50dp"
         android:layout_height="25dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
         android:text="Nota 3"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintStart_toEndOf="@+id/txtnota2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btnNota2"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
-    <TextView
-        android:id="@+id/txtnota4"
+    <Button
+        android:id="@+id/btnNotaFinal"
         android:layout_width="50dp"
         android:layout_height="25dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/mybutton"
         android:text="Final"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:fontFamily="@font/nunito"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txtnota3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btnNota3"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotasFinales" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerNotas"
@@ -123,7 +140,7 @@
         android:layout_marginRight="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtnota2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNota2" />
 
     <Button
         android:id="@+id/btnModificar"

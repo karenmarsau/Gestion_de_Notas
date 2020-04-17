@@ -37,7 +37,7 @@ public class ModificarDatos extends AppCompatActivity {
                 String nombreAnt = "";
                 String nombreNuevo = "";
                 boolean encontrar = false;
-                boolean validacion = false;
+                boolean validacion = true;
 
                 EditText nombreAnterior = findViewById(R.id.edtNomAnt);
                 if(!nombreAnterior.getText().toString().equals("")) {

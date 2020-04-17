@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import java.util.Arrays;
 
 public class MostrarAlumnos extends AppCompatActivity {
 
@@ -25,6 +26,19 @@ public class MostrarAlumnos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mostrar_alumnos);
+        Intent intent = getIntent();
+        nombresArray = intent.getStringArrayExtra("nombresArray");
+        nota1Array = intent.getIntArrayExtra("nota1Array");
+        nota2Array = intent.getIntArrayExtra("nota2Array");
+        nota3Array = intent.getIntArrayExtra("nota3Array");
+        contador = intent.getIntExtra("contador", 0);
+
+        final Button btnOrderNombre = findViewById(R.id.btnAlumnos);
+        btnOrderNombre.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Arrays.sort(nombresArray);
+            }
+        });
 
         final Button btnModificarDatos = findViewById(R.id.btnModificar);
         btnModificarDatos.setOnClickListener(new View.OnClickListener() {
@@ -32,13 +46,6 @@ public class MostrarAlumnos extends AppCompatActivity {
                 goToModificar();
             }
         });
-
-        Intent intent = getIntent();
-        nombresArray = intent.getStringArrayExtra("nombresArray");
-        nota1Array = intent.getIntArrayExtra("nota1Array");
-        nota2Array = intent.getIntArrayExtra("nota2Array");
-        nota3Array = intent.getIntArrayExtra("nota3Array");
-        contador = intent.getIntExtra("contador", 0);
 
         recyclerView = findViewById(R.id.recyclerNotas);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, nombresArray, nota1Array, nota2Array, nota3Array, contador);
